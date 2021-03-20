@@ -1,7 +1,7 @@
 # 8051-digitalclock-rtc #
 24Hr digital clock using 8051 and RTC DS1307
 
-Programming was done using Assembly Language on Keil uVision 5 and simulation on Proteus 8.9 using AT89C51
+Program is written in Assembly Language on Keil uVision 5 and simulation was done on Proteus 8.9 using AT89C51
 
 ![proteus-simulation](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/Proteus%20sim.PNG)
 
@@ -18,7 +18,7 @@ Switches used:
 * toggle current bit -> switch B  *Used by the program to choose proper interrupt operation*
 
 
-### Important: Toggle switch A on-off only after making switch B on or off according to the requirement ###
+### Important: Toggle switch A on-off only after making switch B on or off ###
 
 
 # Switch combinations
@@ -37,13 +37,13 @@ Switches used:
 
 
 **To come out of set time mode**
-* After setting the last bit **use #go to next bit# switch combination twice** to come out Of set mode
+* After setting the last bit **use #go to next bit# switch combination twice** to come out of the time set mode
 
 
 ### In Time Set Mode LED is on ###
 ![ledon](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/onmode.PNG)
 
-### Normal Mode LED is off ##
+### In Normal Mode LED is off ##
 ![ledoff](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/offmode.PNG)
 
 ------------------------------------------------------------------------------------------
@@ -52,9 +52,8 @@ Switches used:
 * R2 -> MICRO_DELAY FUNCTION
 * R3 -> TEMPORARY STORAGE IN TIMESETMODE SUBROUTINE
 
-* R4 -> HOURS REGISTER    -----  0   x   X(MSB)    X(LSB)
-* R5 -> MINUTES REGISTER  -----  0   x   X(MSB)    X(LSB)
-
+* R4 -> HOURS REGISTER 0x(MSB)(LSB)
+* R5 -> MINUTES REGISTER 0x(MSB)(LSB)
 
 * R6 -> TIME SET REGISTER [COMMAND]
    *     0x00: Normal Mode
