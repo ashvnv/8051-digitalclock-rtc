@@ -1,0 +1,3 @@
+".\Objects\Main.obj" 
+TO ".\Objects\8051_RTC_MC" 
+PRINT(".\Listings\8051_RTC_MC.m51")
