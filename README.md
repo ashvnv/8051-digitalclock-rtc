@@ -1,9 +1,9 @@
 # 8051-digitalclock-rtc #
-24-hours digital clock using 8051 and RTC DS1307
+24Hr digital clock using 8051 and RTC DS1307
 
 Programming was done using Assembly Language on Keil uVision 5 and simulation on Proteus 8.9 using AT89C51
 
-![proteus-simulation](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/Proteus%20sim.jpeg)
+![proteus-simulation](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/Proteus%20sim.PNG)
 
 
 Operation of the clock in brief:
