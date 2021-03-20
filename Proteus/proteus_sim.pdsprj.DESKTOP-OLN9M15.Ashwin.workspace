@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffffb20000000c000000ce060000fa030000</PLACEMENT>
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffffb20000000c000000ce060000fa030000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
@@ -55,7 +55,7 @@
      <ITEM name="TopLineAddress">00000080</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="178" x="179" flags="00000001" y="292" h="86" pid="1" iid="10">
+   <POPUP w="178" x="463" flags="00008001" y="668" h="86" pid="1" iid="10">
     <PROPERTIES/>
    </POPUP>
    <POPUP w="8" x="77" flags="00000008" y="552" h="8" pid="2" iid="10">
@@ -68,7 +68,7 @@
      <ITEM name="TopLineAddress">00000000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="750" x="424" flags="00008023" y="0" h="341" pid="0" iid="2">
+   <POPUP w="750" x="382" flags="00000022" y="511" h="341" pid="0" iid="2">
     <PROPERTIES>
      <ITEM name="ComboBox1000">S</ITEM>
      <ITEM name="ComboBox1001">Sr</ITEM>
