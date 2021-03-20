@@ -18,7 +18,7 @@ Switches used:
 * toggle current bit -> switch B  *Used by the program to choose proper interrupt operation*
 
 
-### Important: Toggle switch A on-off only after making switch B on or off ###
+### Important: Switch A is the interrupt switch. Interrupt program determines what operation to do based on the state of switch B. So make switch B on or off according to the requirement before toggling switch A ###
 
 
 # Switch combinations
