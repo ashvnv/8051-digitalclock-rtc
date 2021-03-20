@@ -47,7 +47,7 @@ Switches used:
 ![ledoff](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/offmode.PNG)
 
 ------------------------------------------------------------------------------------------
-# Registers used:
+# 8051 Registers used:
 * R1 -> ACCUMULATOR BACKUP
 * R2 -> MICRO_DELAY FUNCTION
 * R3 -> TEMPORARY STORAGE IN TIMESETMODE SUBROUTINE
@@ -65,7 +65,7 @@ Switches used:
 
 
 ------------------------------------------------------------------------------------------
-# Subroutine addresses:
+# 8051 Subroutine addresses:
 * (150H)SETTIMEMODE -> INT1 CALLS THIS ADDRESS FOR MANUALLY SETTING TIME
 * (260H)DISPLAY -> 8051 DRIVING 7447 BCD TO 7SEG DISPLAY DECODER IN MULTIPLEX MODE
 * (300H)UPDATETIME -> CALL TO UPDATE 8051 INTERNAL TIME REGISTERS R4 AND R5
