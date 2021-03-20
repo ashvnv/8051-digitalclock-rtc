@@ -4,8 +4,11 @@
 Programming was done using Assembly Language on Keil uVision 5 and simulation on Proteus 8.9
 8051 chip selected during simulation was AT89C51
 
+![proteus-simulation](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/Proteus%20sim.jpeg)
+
+
 Operation of the clock in brief:
-I2C protocol is used for communication between 8051 and DS1307. Initially 8051 enables the 1Hz Clock output on RTC chip. This 1Hz clock is used to interrupt 8051 every second. 8051 does not keep the track of time but instead outsources it to the RTC chip. At each interrupt, 8051 reads the time information present in the RTC chip and updates it's own time registers which is used to show information on the Groove 4 digit 7 segment display. 7447 BCD to 7 segment display is in multiplexing configuration for driving 4 7-seg display simultaneously. 
+I2C protocol is used for communication between 8051 and DS1307. Initially 8051 enables the 1Hz Clock output on RTC chip. This 1Hz clock is used to interrupt 8051 every second. 8051 does not keep the track of time but instead outsources it to the RTC chip. At each interrupt, 8051 reads the time information present in the RTC chip and updates it's own time registers which is used to show information on the Groove 4 digit 7 segment display. 7447 BCD to 7 segment display is in multiplexing configuration for driving 4 7-seg display simultaneously. Switches used for setting the time is connected via a low pass RC filter. This is necessary to remove key debounce
 
 RTC time can be manually adjusted using the SET Mode Switches, Switch A and Switch B
 
@@ -37,6 +40,11 @@ Switches used:
 **To come out of set time mode**
 * After setting the last bit **use #go to next bit# switch combination twice** to come out Of set mode
 
+### In Time Set Mode LED is on ###
+![ledon](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/onmode.PNG)
+
+### Normal Mode LED is off ##
+![ledoff](https://raw.githubusercontent.com/ashvnv/8051-digitalclock-rtc/main/temp/offmode.PNG)
 
 ------------------------------------------------------------------------------------------
 # Registers used:
