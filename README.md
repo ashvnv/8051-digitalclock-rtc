@@ -80,3 +80,8 @@ Switches used:
 * (600H)ACK -> I2C ACKNOWLEDGEMENT (M TO S)
 * (610H)NAK -> I2C N-ACKNOWLEDGEMENT (M TO S)
 * (620H)RECV -> I2C RECEIVE DATA
+
+<!---
+google-site-verification: googlec656a375da8dc998.html
+-->
+
