@@ -1,4 +1,5 @@
 # 8051-digitalclock-rtc #
+<meta name="google-site-verification" content="9pIBcK0Zl8xfMuP1DIdEa6FQZJ36Wgp3SNG9VdZxU7c" />
 24Hr digital clock using 8051 and RTC DS1307
 
 Program is written in Assembly Language on Keil uVision 5 and simulation was done on Proteus 8.9 using AT89C51
@@ -80,8 +81,4 @@ Switches used:
 * (600H)ACK -> I2C ACKNOWLEDGEMENT (M TO S)
 * (610H)NAK -> I2C N-ACKNOWLEDGEMENT (M TO S)
 * (620H)RECV -> I2C RECEIVE DATA
-
-<!---
-google-site-verification: googlec656a375da8dc998.html
--->
 
