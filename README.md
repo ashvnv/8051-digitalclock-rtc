@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="9pIBcK0Zl8xfMuP1DIdEa6FQZJ36Wgp3SNG9VdZxU7c" />
 # 8051-digitalclock-rtc #
 24Hr digital clock using 8051 and RTC DS1307
 
